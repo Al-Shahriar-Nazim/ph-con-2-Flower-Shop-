@@ -1,0 +1,65 @@
+/* css font */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.header-section {
+  max-width: 1920px;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  background: rgba(229, 84, 115, 0.1);
+  & .header-content {
+    width: 45%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    & .headline {
+      color: rgb(39, 39, 39);
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 60px;
+      margin-bottom: 27px;
+      padding: 5px;
+    }
+    p {
+      color: rgba(39, 39, 39, 0.6);
+      width: 630px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25px;
+      margin-bottom: 27px;
+      padding: 5px;
+      font-size: 18px;
+    }
+    & button {
+      width: 160px;
+      height: 60px;
+      background-color: #e55473;
+      color: white;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      margin-top: 20px;
+      padding: 5px;
+    }
+  }
+  & .header-img {
+    width: 45%;
+    height: 750px;
+
+    & img {
+      width: 635px;
+      height: 750px;
+    }
+  }
+}
